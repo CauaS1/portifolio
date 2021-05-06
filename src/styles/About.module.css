@@ -1,0 +1,52 @@
+.title {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+.grid_container {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills_grid {
+  width: 98%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+  gap: .5rem;
+}
+
+.skill_container {
+  border-radius: .5rem;
+  background-color: #f1f1f1;
+  padding: 1.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: .3s;
+}
+
+.skill_container:hover {
+  background-color: #fff;
+}
+
+.skill_name {
+  font-size: 1.4rem;
+  display: none;
+}
+
+.skill_container:hover .skill_name {
+  display: flex;
+}
